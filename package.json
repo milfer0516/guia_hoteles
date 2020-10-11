@@ -1,19 +1,23 @@
 {
-  "name": "proyecto-hoteles",
-  "version": "1.0.0",
-  "description": "Nuestro Primer Proyecto de Nodejs",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/milfer0516/guia_hoteles.git"
-  },
-  "author": "Milfer Antonio Muñoz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/milfer0516/guia_hoteles/issues"
-  },
-  "homepage": "https://github.com/milfer0516/guia_hoteles#readme"
+    "name": "proyecto-hoteles",
+    "version": "1.0.0",
+    "description": "Nuestro Primer Proyecto de Nodejs",
+    "main": "index.html",
+    "scripts": {
+        " dev ": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/milfer0516/guia_hoteles.git"
+    },
+    "author": "Milfer Antonio Muñoz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/milfer0516/guia_hoteles/issues"
+    },
+    "homepage": "https://github.com/milfer0516/guia_hoteles#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
 }
