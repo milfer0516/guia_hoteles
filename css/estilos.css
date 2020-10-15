@@ -1,0 +1,13 @@
+.jumbotron {
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+}
+.hotel {
+  background-color: #eeeeee;
+  border-style: inherit;
+}
+.btn {
+  background-color: #373a40;
+  color: #eeeeee;
+}

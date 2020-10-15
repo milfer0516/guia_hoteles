@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guía de Hoteles</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Hoteles</h1>
+      </div>
+    </header>
 
-    <title>Guia Hoteles</title>
-</head>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>¿Como Funciona?</h3>
+            <p>Busca los hoteles de acuerdo a tu preferencia</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>¿Donde puedo reservar?</h3>
+            <p>
+              Elige la ciudad que te interese y luego realiza la reserva con tus
+              datos
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h3>¿Como pago?</h3>
+            <p>Utiliza tu tarjeta favorita</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="hotel col-sm-3">
+            <h4>Hotel Barcelona</h4>
+            <p>
+              Hotel ubicado en pleno centro de Barcelona a pocos metros de la
+              playa
+            </p>
+            <button class="btn">Reservar</button>
+          </div>
 
-<body>
-    <h1>Hola Mundo</h1>
+          <div class="hotel col-sm-3">
+            <h4>Hotel Buenos Aires</h4>
+            <p>Hotel ubicado en pleno centro</p>
+            <button class="btn">Reservar</button>
+          </div>
 
-    <!-- JavaScript -->
-    <!-- Jquery, Popper.js y Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+          <div class="hotel col-sm-3">
+            <h4>Hotel Lima</h4>
+            <p>Hotel ubicado en pleno centro</p>
+            <button class="btn">Reservar</button>
+          </div>
 
+          <div class="hotel col-sm-3">
+            <h4>Hotel Rio de Janeiro</h4>
+            <p>
+              Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de
+              la playa
+            </p>
+            <button class="btn">Reservar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
