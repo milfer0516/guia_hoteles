@@ -9,5 +9,15 @@
 }
 .btn {
   background-color: #373a40;
-  color: #eeeeee;
+  color: #71b100;
+}
+img {
+  max-width: 100%;
+}
+.copyright {
+  background-color: black;
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: end;
+  padding: 30px;
 }
