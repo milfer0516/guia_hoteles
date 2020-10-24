@@ -1,7 +1,12 @@
+
+p {
+  font-size: 18px;
+}
 .jumbotron {
   background-color: black;
   text-align: center;
   color: #ffffff;
+  margin-top: 40px;
 }
 /** Princicpal **/
 .hotel {
@@ -26,13 +31,13 @@ footer {
   background-color: #ffe05d;
   padding: 30px;
   margin-top: 15px;
+  
 }
 .navegacion a{
  text-decoration: none;
  margin-right: 10px;
+ margin-top: 40px;
+ color: #373a40;
+ text-align: center;
 }
-.copyright {
-  text-align: end;
-  color: #14274e;
-  margin-left: 300px;
-}
+
