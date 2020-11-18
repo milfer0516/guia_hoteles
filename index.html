@@ -6,6 +6,7 @@
     <title>Guía de Hoteles</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" />
   </head>
   <body>
     <header>
@@ -18,9 +19,9 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Términos y Condiciones</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
           </ul>
         </div>
       </nav>
@@ -34,7 +35,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
-          </nav>
+        </nav>
       <div class="container">
         <div class="d-flex flex-wrap">
           <div class="col-sm-4 justify-content-between">
@@ -67,7 +68,7 @@
                 Aeropuerto Internacional El Dorado y a 11 km del parque temático
                 Salitre Mágico y del centro comercial Titán Plaza.
               </p>
-              <button class="btn">Reservar</button>
+              <button class="btn btn-reserva">Reservar</button>
             </div>
           </div>
 
@@ -81,7 +82,7 @@
               </p>
             </div>
             <div>
-              <button class="btn">Reservar</button>
+              <button class="btn btn-reserva">Reservar</button>
             </div>
            
           </div>
@@ -94,7 +95,7 @@
                 Hotel moderno, cerca de la playa, con restaurante y azotea con
                 vistas a la ciudad.
               </p>
-               <button class="btn">Reservar</button>
+               <button class="btn btn-reserva">Reservar</button>
             </div>
           </div>
 
@@ -105,27 +106,41 @@
               Hotel de estilo informal a orillas del mar con playa privada, bar
               junto a la piscina exterior y discoteca.
             </p>
-            <button class="btn">Reservar</button>
+            <button class="btn btn-reserva">Reservar</button>
           </div>
         </div>
       </div>
     </main>
     
-    <footer class="container">
-        <div class="row footer">
-            <nav class="col-sm-4 d-flex navegacion">
+    <footer>
+        <div class="row">
+            <nav class="col-sm-3 d-flex flex-column">
                <a href="http://www.facebook.com">Nosotros</a>
                <a href="http://www.twitter.com">Contacto</a>
                <a href="http://www.google.com">Precios</a>
                <a href="http://www.guia-hoteles.com">Blog</a>
             </nav>
+            <div class="col-sm-3">
+                <address class="d-flex flex-column align-items-center">
+                     <h3>Oficina Central</h3>
+                     <p><span class="oi oi-home footer-icon"></span>Bogotá DC, Colombia</p>
+                     <p><span class="oi oi-phone footer-icon"></span>+573219041397</p>
+                     <p><span class="oi oi-envelope-closed footer-icon"></span>contacto@guia-hoteles.com</p>
+                </address>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.google.com">Google+</a>
+            </div>
           
         </div>
-        <p class="text-right footer text-sm-right">Todos los Derechos Reservados 2020 &copy;</p>
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/popper-utils.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

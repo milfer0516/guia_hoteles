@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item active"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
             <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contacto.html">Contacto</a></li>
           </ul>
         </div>
       </nav>
@@ -34,29 +34,61 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+              <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
-            
-           
-          </nav>
-        <span>
-            Quisque quis molestie tellus, sit amet vive dui rutrrra justo. 
-            Integer ac dui utum faucibus in id tellus. Quisque quis purus condimentum justo 
-            maximus ultricies. Donec venenatis risus enim. Maecenas nec nibh enim. Quisque t
-            empus fermentum justo, vitae pretium nisi consequat vel. Fusce pretium, massa vitae
-            pellentesque varius, magna diam condimentum lectus, a euismod ipsum arcu sed ligula. 
-            Nullam sit amet tempor odio, vel consectetur tortor. Donec ligula magna, scelerisque a 
-            consequat nec, posuere ut mauris. Aliquam erat volutpat. Nulla facilisi. Fusce malesuada 
-            nec lacus at iaculis.Praesent a quam eget nisi laoreet sodales sit amet sed dolor
-            Vestibulum ac commodo turpis, a ultricies ipsum. Pellentesque felis nisi, lobortis 
-            porta ut, malesuada tempor nibh. Fusce augue magna, varius nec sapien id, vulputate 
-            consectetur velit. Morbi ex dui, congue quis nisl luctus, eleifend euismod ante.
-            Donec fringilla hendrerit mauris nec egestas. Sed a urna quis purus hendrerit
-            tincidunt id volutpat lacus. Pellentesque id tellus volutpat risus ullamcorper 
-            pulvinar.In hac habitasse platea dictumst. Praesent quis tellus a leo fermentum
-            auctor. Duis sollicitudin finibus leo, sed elementum metus. Cras a dignissim arcu. 
-        </span>
+        </nav>
     </div>
+
+    <main class="container">
+        <h1 class="titulo">Dejame tu comentario</h1>
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingrese su apellido" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="mail" id="email" class="form-control" placeholder="Ingrese su email" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-9">
+                    <label for="direccion">Dirección domicilio</label>
+                    <input type="text" id="direccion" class="form-control" placeholder="Ingrese su dirección" required>
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="ciudad">Ciudad</label>
+                    <select  id="ciudad" class="form-control">
+                        <option selected>Bogotá DC</option>
+                        <option>Manizales</option>
+                        <option>Medellin</option>
+                        <option>Barranquilla</option>
+                        <option>Cartagena</option>
+                        <option>Cali</option>
+                        <option>Ibague</option>
+                        <option>Monteria</option>
+                        <option>Bucaramanga</option>
+                        <option>Santa Marta</option>
+                        <option>Villavicencio</option>
+                        <option>Neiva</option>
+                        <option>Pasto</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" class="form-control" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </main>
+
     
     <footer>
       <div class="row">
@@ -66,7 +98,7 @@
              <a href="http://www.google.com">Precios</a>
              <a href="http://www.guia-hoteles.com">Blog</a>
           </nav>
-          <div class="col-sm-3 align-items-center">
+          <div class="col-sm-3">
               <address>
                    <h3>Oficina Central</h3>
                    <p><span class="oi oi-home footer-icon"></span>Bogotá DC, Colombia</p>

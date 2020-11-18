@@ -6,7 +6,10 @@ p {
   background-color: black;
   text-align: center;
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.titulo {
+  text-align: center;
 }
 /** Princicpal **/
 .hotel {
@@ -15,7 +18,7 @@ p {
   background-color: #eeeeee;
   border-style: inherit;
 }
-.btn { 
+.btn-reserva { 
   background-color: #373a40;
   color: #71b100;
   width: 100%;
@@ -38,6 +41,9 @@ footer {
  margin-right: 10px;
  margin-top: 40px;
  color: #373a40;
- text-align: center;
+
+}
+.footer-icon {
+  padding-right: 10px;
 }
 
