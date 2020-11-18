@@ -23,6 +23,9 @@ p {
   color: #71b100;
   width: 100%;
 }
+.btn2-reserva {
+  padding-right: 5px;
+}
 img {
   max-width: 100%;
 }
