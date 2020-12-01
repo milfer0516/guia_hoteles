@@ -22,6 +22,9 @@ p {
    color: #71b100;
    width: 100%;
 }
+.card-subtitle {
+   padding-bottom: 5px;
+}
 #btn2 {
    margin-top: 25px;
 }
